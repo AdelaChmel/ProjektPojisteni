@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pojištění</title>
+    <link rel="stylesheet" href="styl.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div id = "logo">
+            <h1>PojištěníApp</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class = "aktivni">Pojištenci</li>
+                <li>O aplikaci</li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Pojištěnci</h2>
+    <div id="seznam-pojistencu">
+        
+        <table class="vypis">
+            <thead>
+                <tr>
+                    <th>Jméno a příjmení</th>
+                    <th>Telefon</th>
+                    <th>Věk</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+        
+    </div>
+
+    <h2>Nový pojištěnec</h2>
+    <div class="inputy">
+        <div>
+            <img src="images/User.png" />
+            <table>
+                <tr>
+                    <td><label>Jméno</label></td>
+                    <td><label>Příjmení</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="jmeno" placeholder="Jan"></td>
+                    <td><input type="text" id="prijmeni" placeholder="Novák"></td>
+                </tr>
+            
+                <tr>
+                    <td><label>Věk</label></td>
+                    <td><label>Telefon</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="vek" placeholder="31"></td>
+                    <td><input type="number" id="telefon" placeholder="731 459 687"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <button id="tlacitko">Uložit</button>
+    </div>
+    <!-- <div id="inputy">
+        <div id="grid">
+            <div class="input">
+                <label>Jméno</label><br>
+                <input type = "text" id="jmeno" placeholder="Jan"><br>
+            </div>
+
+            <div class="input">
+                <label>Příjmení</label><br>
+                <input type = "text" id="prijmeni" placeholder = "Novák"><br>
+            </div>
+
+            <div class="input">
+                <label>Věk</label><br>
+                <input type = "number" id ="vek" placeholder="31"><br>
+            </div>
+            
+            <div class="input">
+                <label>Telefon</label><br>
+                <input type = "number" id="telefon" placeholder="731 459 687">
+            </div>
+
+        </div>
+            
+        <button id="tlacitko">Uložit</button>
+        
+    </div> -->
+    <script src="JS/PojisteniApp.js"></script>
+    <script src = "JS/Pojistenec.js"></script>
+    
+    <script src = "JS/obsluha.js"></script>
+</body>
+</html>
+
+
